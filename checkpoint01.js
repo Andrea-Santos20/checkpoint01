@@ -31,45 +31,57 @@ const time = parseInt(readlineSync.question(`Digite o tempo `))
 
 switch (menu) {
     case 1:
-        if (time > 2 * 10) { 
-            console.log('A comida queimou.')
+        if (time >= 3 * 10) { 
+            console.log('Kabumm!');
+
+        } else if (time >= 2 * 10) {
+            console.log('A comida queimou.');
+
         } else if (time < 10) {
             console.log('Tempo insuficiente.')
-        } else if (time > 3 * 10) {
-            console.log('Kabumm!')
+
         } else {
             console.log('Prato pronto, bom apetite!')
         }
         break;
     case 2:
-        if (time > 2 * 8) { 
-            console.log('A comida queimou.')
-        } else if (time < 8) {
+        if (time >= 3 * 10) { 
+            console.log('Kabumm!');
+
+        } else if (time >= 2 * 10) {
+            console.log('A comida queimou.');
+
+        } else if (time < 10) {
             console.log('Tempo insuficiente.')
-        } else if (time > 3 * 8) {
-            console.log('Kabumm!')
+
         } else {
             console.log('Prato pronto, bom apetite!')
         }
         break;
     case 3:
-        if (time > 2 * 15) { 
-            console.log('A comida queimou.')
-        } else if (time < 15) {
+        if (time >= 3 * 10) { 
+            console.log('Kabumm!');
+
+        } else if (time >= 2 * 10) {
+            console.log('A comida queimou.');
+
+        } else if (time < 10) {
             console.log('Tempo insuficiente.')
-        } else if (time > 3 * 15) {
-            console.log('Kabumm!')
+
         } else {
             console.log('Prato pronto, bom apetite!')
         }
         break;
     case 4:
-        if (time > 2 * 12) { 
-            console.log('A comida queimou.')
-        } else if (time < 12) {
+        if (time >= 3 * 10) { 
+            console.log('Kabumm!');
+
+        } else if (time >= 2 * 10) {
+            console.log('A comida queimou.');
+
+        } else if (time < 10) {
             console.log('Tempo insuficiente.')
-        } else if (time > 3 * 12) {
-            console.log('Kabumm!')
+
         } else {
             console.log('Prato pronto, bom apetite!')
         }
